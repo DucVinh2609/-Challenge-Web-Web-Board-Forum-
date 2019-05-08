@@ -24,3 +24,6 @@ Có 4 table: users, topic, category và reply
 *VẤN ÐỀ CHƯA ÐẠT ÐƯỢC VÀ HƯỚNG PHÁT TRIỂN
 	- Vì thời gian hạn hẹp nên nhiều chức năng như: đăng nhập, đăng xuất user; like, dislike các reply;...
 	=> Từ đó hướng phát triển nếu có thêm thời gian là: Việc hoàn chỉnh các chức năng nói trên, từ đó sẽ tạo ra 1 trang forum hoàn thiện hơn.
+
+
+Để Sử dụng DB: Cần Import file forumofducvinh.sql vào mysql để chạy.
