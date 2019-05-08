@@ -1,8 +1,12 @@
 
 "# -Challenge-Web-Web-Board-Forum-" 
+
 Ngôn ngũ lập trình sử dụng: PHP
+
 Framwork sử dụng: Laravel, ngoài ra còn dùng API.
+
 CSDL dùng: phpmyadmin
+
 *CHÚ THÍCH VỀ GIAO DIỆN
 Có 3 trang chính: index, topic/{id} và new_topic
 	- index: là trang show tất cả các ý tưởng hay câu hỏi hay đặt vấn đề trong diễn đàn
