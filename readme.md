@@ -70,3 +70,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# -Challenge-Web-Web-Board-Forum-" 
+Ngôn ng? l?p trình s? d?ng: PHP
+Framwork s? d?ng: Laravel, ngoài ra còn dùng API.
+CSDL dùng: phpmyadmin
+*CHÚ THÍCH V? GIAO DI?N
+Có 3 trang chính: index, topic/{id} và new_topic
+	- index: là trang show t?t c? các ý tu?ng hay câu h?i hay d?t v?n d? trong di?n dàn
+		 show t?t c? các category cung nhu t?t c? các users
+		 Khi click vào t?ng topic thì s? hi?n ra trang m?i là topic chi ti?t theo ID
+	- topic/{id}: là trang cho bi?t chi chi ti?t v? cái topic và nh?ng reply v? topic dó
+	- new_topic: Khi click button Start New Topic ? trên thì s? hi?n trang m?i là trang new_topic
+		     Trang này khi di?n d?y d? thông tin và ?n nút post thì cái topic s? dang ra ngoài di?n dàn
+*CHÚ THÍCH V? CSDL
+Có 4 table: users, topic, category và reply
+	- users: id, username, passwork, url_img, is_admin
+	- topic: id, title, description, date_post, id_category, id_user
+	- category: id, name_category
+	- reply: id, id_user, message, date_reply, id_topic
+*NH?NG V?N Ð? ÐÃ GI?I QUY?T ? BÀI T?P NÀY
+	- Thi?t k? giao di?n
+	- T?o CSDL
+	- V? Backend thì dã vi?t m?t s? ch?c nang co b?n c?n có ? 1 di?n dàn là: dang topic, và reply topic, xem các topic,...
+*V?N Ð? CHUA Ð?T ÐU?C VÀ HU?NG PHÁT TRI?N
+	- Vì th?i gian h?n h?p nên nhi?u ch?c nang nhu: dang nh?p, dang xu?t user; like, dislike các reply;...
+	=> T? dó hu?ng phát tri?n n?u có thêm th?i gian là: Vi?t hoàn ch?nh các ch?c nang nói trên, t? dó s? t?o ra 1 trang forum hoàn thi?n hon. 
